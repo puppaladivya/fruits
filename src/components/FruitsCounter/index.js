@@ -6,12 +6,12 @@ class FruitsCounter extends Components {
   state = {count: 0, count1: 0}
 
   mango = () => {
-    const {count} = this.state
+    const {count, count1} = this.state
     this.setState(prevState => ({count: prevState.count + 1}))
   }
 
   banana = () => {
-    const {count1} = this.state
+    const {count, count1} = this.state
     this.setState(prevState => ({count1: prevState.count1 + 1}))
   }
 
